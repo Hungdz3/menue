@@ -1,0 +1,198 @@
+@font-face {
+    font-family: roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Liter&family=Roboto+Slab:wght@100..900&display=swap);
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.header {
+    height: 56px;
+    background-color: rgb(25, 105, 210);
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    width: auto;
+    text-align: center;
+    align-content: center;
+}
+
+
+.header h1 {
+    line-height: 56px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box1, .box2, .box3 {
+    background-color:rgb(25, 105, 210);
+    max-width: 700px;
+    width: 480px;
+    padding: 15px;
+    height: 400px;
+    margin: 10px 0px 10px 0px;
+}
+
+.body {
+    width: auto;
+    padding: 5px;
+    display: flex;
+}
+
+.head {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+
+
+
+.info {
+    color: white;
+    padding: 0px 0px 10px 0px;
+    margin: 8px 8px;
+    font-size: 22px;
+    padding: 8px;
+    height: fit-content;
+}
+
+.info img {
+    float: left;
+    width: 180px;
+    margin-right: 8px;
+}
+
+.link-social {
+    display: inline-block;
+    height: 50px;
+    align-content: center;
+    width: auto;
+}
+
+#facebook {
+    background-color: #0f94f2;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 12px;
+}
+
+#instagram {
+    background-color: rgba(248, 12, 244, 0.808);
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 12px;
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box2 {
+    color: white;
+    font-size: 22px;
+}
+
+.box2 li {
+    padding: 0px 10px 5px 0px;
+    list-style-type: none;
+}
+
+h4 {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 22px;
+}
+
+hr {
+    background-color: white;
+    margin: 2px;
+}
+
+.link {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.link li {
+    list-style-type: none;
+    width: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.link li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    line-height: 40px;
+    width: auto;
+    font-size: 22px;
+}
+
+/* iphone 14 pr */
+@media screen and (max-width: 600px) { 
+
+    .header {
+        font-size: 10px;
+        height: 50px;
+    }
+
+    .dropbox {
+        display: none;
+    }
+    
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1, .box2, .box3 {
+        width: 85%;
+        margin: 5px auto;
+        height: fit-content;
+    }
+
+    .box3 {
+        display: block;
+    }
+    
+    img {
+        width: 100px;
+        margin: 10px 0px 0px 5px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+}
